@@ -10,7 +10,7 @@ namespace Inheritance
         public string GetProperties()
         {
             string animalProperties = base.GetProperties();
-            string catProperties= String.Format(" Run Speed:{0} Sound:{1}",runSpeed,sound);
+            string catProperties= String.Format(" Run Speed:{0} Sound:{1} ",runSpeed,sound);
             return animalProperties+catProperties;
         }
     }

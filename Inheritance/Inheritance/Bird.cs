@@ -10,7 +10,9 @@ namespace Inheritance
         public string GetProperties()
         {
             string animalProperties = base.GetProperties();
-            string birdProperties = String.Format("Fly Speed:{0} Fly Distance:{1}",flySpeed,flyDistance);
+            string birdProperties = String.Format(" Fly Speed:{0} Fly Distance:{1} ",flySpeed,flyDistance);
+            return animalProperties + birdProperties;
+
         }
     }
 }

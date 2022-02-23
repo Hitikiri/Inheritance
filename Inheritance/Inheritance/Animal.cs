@@ -10,7 +10,7 @@ namespace Inheritance
 
         public string GetProperties()
         {
-            return String.Format("Name:{0} Length:{1} Weight:{2}",name,length,weight);
+            return String.Format("Name:{0} Length:{1} Weight:{2} ",name,length,weight);
         }
     }
 }
