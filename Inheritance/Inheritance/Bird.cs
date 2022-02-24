@@ -12,7 +12,11 @@ namespace Inheritance
             string animalProperties = base.GetProperties();
             string birdProperties = String.Format(" Fly Speed:{0} Fly Distance:{1} ",flySpeed,flyDistance);
             return animalProperties + birdProperties;
-
+            
+        }
+        public override void Move()
+        {
+            throw new NotImplementedException();
         }
     }
 }

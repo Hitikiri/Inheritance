@@ -13,5 +13,15 @@ namespace Inheritance
             string catProperties= String.Format(" Run Speed:{0} Sound:{1} ",runSpeed,sound);
             return animalProperties+catProperties;
         }
+
+        public override void Move()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Sleep()
+        {
+            energy += 2;
+        }
     }
 }
